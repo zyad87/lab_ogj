@@ -105,7 +105,7 @@ characters = [
     return character.gender === 'male';
   });
   
-  console.log("/n");
+  console.log(`/n)`;
   console.log(maleCharacter);
   
   let namesOnly = [];
@@ -121,7 +121,7 @@ characters = [
     heightOnly.push(e.height);
   });
   
-  console.log("/n");
+  console.log(`/n)`;
   console.log(heightOnly);
   
   let sortedByMass = characters.sort((e1, e2) => {
@@ -134,13 +134,13 @@ characters = [
     return e2.height - e1.height;
   });
   
-  console.log("/n");
+  console.log(`/n)`;
   console.log(sortedByHeight);
   
-  console.log("/n");
+  console.log(`/n)`;
   console.log(characters.every((e) => e.mass > 45));
   
-  console.log("/n");
+  console.log(`/n)`;
   console.log(characters.every((e) => e.height > 200));
   
   console.log("/n");
